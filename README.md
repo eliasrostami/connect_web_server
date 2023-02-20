@@ -45,3 +45,6 @@ Future<String> getDataFromServer(){
 
     return Future.delayed(Duration(second:2)).then((value)=> throw Exception('async test'));
 }
+
+if we do all work in the same time the fast of doing works becoming better, this is async programin
+Future: is generic and just do  a work that the result will be determine in the future
